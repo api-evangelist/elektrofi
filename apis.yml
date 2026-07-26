@@ -1,7 +1,29 @@
 aid: elektrofi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elektrofi.png
 name: Elektrofi
-description: Elektrofi is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Elektrofi is a Boston-based biopharmaceutical formulation technology company
+  reinventing how biologic therapies are delivered to patients. Its Hypercon
+  ultra-high-concentration microparticle platform and Elektroject process turn
+  monoclonal antibodies, therapeutic proteins, and other large-molecule drugs
+  into stable, syringe-injectable formulations suited to small-volume, at-home
+  subcutaneous self-administration instead of intravenous infusion. The company
+  has partnered with Eli Lilly and Janssen Biotech (Johnson & Johnson) on
+  multi-target drug-delivery collaborations, and was acquired by Halozyme
+  Therapeutics in November 2025. Elektrofi is a biotechnology company and does
+  not publish a public developer API; this API Evangelist profile tracks it as a
+  company entity within the network.
 url: https://raw.githubusercontent.com/api-evangelist/elektrofi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,38 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: halozyme
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Drug Delivery
+- Biologics
+- Formulation Technology
+- Subcutaneous
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/elektrofi-domain-security.yml
+- type: Website
+  url: https://www.elektrofi.com/
+- type: About
+  url: https://www.elektrofi.com/about
+- type: Blog
+  url: https://www.elektrofi.com/news
+- type: Team
+  url: https://www.elektrofi.com/team
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
